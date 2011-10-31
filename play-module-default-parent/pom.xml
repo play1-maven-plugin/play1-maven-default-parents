@@ -24,7 +24,7 @@ under the License.
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.google.code.maven-play-plugin</groupId>
     <artifactId>play-module-default-parent</artifactId>
-    <version>1.0.0-alpha4-SNAPSHOT</version>
+    <version>1.0.0-alpha4</version>
     <packaging>pom</packaging>
 
     <name>Play! Module Default Configuration Parent</name>
@@ -183,7 +183,7 @@ under the License.
                                     <target>
                                         <echo message="version=${play.module.version}" file="${project.build.directory}/manifest" />
                                         <echo file="${project.build.directory}/manifest" append="true" />
-                                        <echo message="frameworkVersions=${play.module.frameworkVersions}" file="${project.build.directory}/manifest" append="true"/>
+                                        <echo message="frameworkVersions=${play.module.frameworkVersions}" file="${project.build.directory}/manifest" append="true" />
                                         <echo file="${project.build.directory}/manifest" append="true" />
                                     </target>
                                 </configuration>
