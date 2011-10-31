@@ -29,8 +29,47 @@ under the License.
 
     <name>Play! Application Default Configuration Parent</name>
 
+    <repositories>
+        <repository>
+            <id>com.google.code.maven-play-plugin</id>
+            <name>Maven Play Plugin - releases</name>
+            <url>http://maven-play-plugin.googlecode.com/svn/mavenrepo/releases</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>com.google.code.maven-play-plugin-snapshots</id>
+            <name>Maven Play Plugin - snapshots</name>
+            <url>http://maven-play-plugin.googlecode.com/svn/mavenrepo/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>com.google.code.maven-play-plugin</id>
+            <name>Maven Play Plugin - releases</name>
+            <url>http://maven-play-plugin.googlecode.com/svn/mavenrepo/releases</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+            <id>com.google.code.maven-play-plugin-snapshots</id>
+            <name>Maven Play Plugin - snapshots</name>
+            <url>http://maven-play-plugin.googlecode.com/svn/mavenrepo/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </pluginRepository>
+    </pluginRepositories>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <build>
@@ -39,7 +78,7 @@ under the License.
                 <plugin>
                     <groupId>com.google.code.maven-play-plugin</groupId>
                     <artifactId>play-maven-plugin</artifactId>
-                    <version>1.0.0-alpha3</version> <!-- cannot use ${project.version} -->
+                    <version>1.0.0-alpha4-SNAPSHOT</version> <!-- cannot use ${project.version} -->
                 </plugin>
 
                 <plugin>
@@ -80,7 +119,7 @@ under the License.
                         <dependency>
                             <groupId>com.google.code.maven-play-plugin</groupId>
                             <artifactId>surefire-play-junit4</artifactId>
-                            <version>1.0.0-alpha3</version> <!-- cannot use ${project.version} --> 
+                            <version>1.0.0-alpha4-SNAPSHOT</version> <!-- cannot use ${project.version} --> 
                         </dependency>
                     </dependencies>
                 </plugin>
