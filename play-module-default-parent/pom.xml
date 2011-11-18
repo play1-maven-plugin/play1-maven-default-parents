@@ -218,6 +218,9 @@ under the License.
                             <execution>
                                 <id>javadoc-for-assembly</id>
                                 <phase>prepare-package</phase>
+                                <goals>
+                                    <goal>javadoc</goal>
+                                </goals>
                                 <configuration>
                                     <reportOutputDirectory>${project.build.directory}/apidocs</reportOutputDirectory>
                                 </configuration>
