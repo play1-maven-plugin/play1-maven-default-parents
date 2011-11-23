@@ -119,7 +119,7 @@ under the License.
                         <dependency>
                             <groupId>com.google.code.maven-play-plugin</groupId>
                             <artifactId>surefire-play-junit4</artifactId>
-                            <version>1.0.0-alpha4</version> <!-- cannot use ${project.version} --> 
+                            <version>1.0.0-alpha5-SNAPSHOT</version> <!-- cannot use ${project.version} --> 
                         </dependency>
                     </dependencies>
                 </plugin>
