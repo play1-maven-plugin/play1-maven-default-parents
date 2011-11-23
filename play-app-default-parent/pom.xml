@@ -78,7 +78,7 @@ under the License.
                 <plugin>
                     <groupId>com.google.code.maven-play-plugin</groupId>
                     <artifactId>play-maven-plugin</artifactId>
-                    <version>1.0.0-alpha4</version> <!-- cannot use ${project.version} -->
+                    <version>1.0.0-alpha5-SNAPSHOT</version> <!-- cannot use ${project.version} -->
                 </plugin>
 
                 <plugin>
