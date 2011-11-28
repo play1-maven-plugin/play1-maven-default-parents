@@ -108,10 +108,6 @@ under the License.
                             <name>play.testId</name>
                             <value>${play.testId}</value>
                           </property>
-                          <property>
-                            <name>application.path</name>
-                            <value>${basedir}</value> <!-- this should be default value, how to do it? -->
-                          </property>
                         </properties>
                         <runOrder>alphabetical</runOrder>
                     </configuration>
@@ -136,6 +132,7 @@ under the License.
                         </includes>
                         <runOrder>alphabetical</runOrder>
                         <systemPropertyVariables>
+                            <play.home>${play.home}</play.home>
                             <selenium.browser>${selenium.browser}</selenium.browser>
                             <selenium.url>${selenium.url}</selenium.url>
                             <selenium.test.trace>${selenium.test.trace}</selenium.test.trace>
@@ -154,7 +151,7 @@ under the License.
                         <defaultUserExtensionsEnabled>false</defaultUserExtensionsEnabled>
                         <logOutput>true</logOutput>
                         <skip>${play.seleniumSkip}</skip>
-                        <userExtensions>${play.home}/modules/testrunner/public/test-runner/selenium/scripts/user-extensions.js</userExtensions>
+                        <userExtensions>${project.build.directory}/selenium/user-extensions.js</userExtensions>
                     </configuration>
                 </plugin>
             </plugins>
