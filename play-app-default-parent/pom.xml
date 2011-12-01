@@ -101,10 +101,6 @@ under the License.
                         </excludes>
                         <properties>
                           <property>
-                            <name>play.home</name>
-                            <value>${play.home}</value>
-                          </property>
-                          <property>
                             <name>play.testId</name>
                             <value>${play.testId}</value>
                           </property>
@@ -132,7 +128,6 @@ under the License.
                         </includes>
                         <runOrder>alphabetical</runOrder>
                         <systemPropertyVariables>
-                            <play.home>${play.home}</play.home>
                             <selenium.browser>${selenium.browser}</selenium.browser>
                             <selenium.url>${selenium.url}</selenium.url>
                             <selenium.test.trace>${selenium.test.trace}</selenium.test.trace>
