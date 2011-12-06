@@ -72,6 +72,16 @@ under the License.
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.google.code.maven-play-plugin</groupId>
+                <artifactId>play-selenium-junit4</artifactId>
+                <version>1.0.0-alpha5-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <build>
         <pluginManagement>
             <plugins>
