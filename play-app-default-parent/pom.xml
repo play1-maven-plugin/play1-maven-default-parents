@@ -72,6 +72,7 @@ under the License.
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <play.plugin.version>1.0.0-alpha6-SNAPSHOT</play.plugin.version>
+        <play.testId>test</play.testId>
     </properties>
 
     <dependencyManagement>
