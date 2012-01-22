@@ -73,17 +73,58 @@ under the License.
 
         <play.plugin.version>1.0.0-alpha6-SNAPSHOT</play.plugin.version>
         <play.testId>test</play.testId>
+        <play.version>1.2.4</play.version>
     </properties>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.google.code.maven-play-plugin</groupId>
-                <artifactId>play-selenium-junit4</artifactId>
-                <version>${play.plugin.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>com.google.code.maven-play-plugin</groupId>
+            <artifactId>play-selenium-junit4</artifactId>
+            <version>${play.plugin.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.maven-play-plugin.org.playframework</groupId>
+            <artifactId>play</artifactId>
+            <version>${play.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.maven-play-plugin.org.playframework</groupId>
+            <artifactId>play</artifactId>
+            <version>${play.version}</version>
+            <classifier>framework-min</classifier>
+            <type>zip</type>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.maven-play-plugin.org.playframework.modules.docviewer</groupId>
+            <artifactId>play-docviewer</artifactId>
+            <version>${play.version}</version>
+            <classifier>module-min</classifier>
+            <type>zip</type>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.maven-play-plugin.org.playframework.modules.testrunner</groupId>
+            <artifactId>play-testrunner</artifactId>
+            <version>${play.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.maven-play-plugin.org.playframework.modules.testrunner</groupId>
+            <artifactId>play-testrunner</artifactId>
+            <version>${play.version}</version>
+            <classifier>module-min</classifier>
+            <type>zip</type>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 
     <build>
         <pluginManagement>
