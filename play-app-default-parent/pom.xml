@@ -159,7 +159,7 @@ under the License.
                         <defaultUserExtensionsEnabled>false</defaultUserExtensionsEnabled>
                         <logOutput>true</logOutput>
                         <skip>${play.seleniumSkip}</skip>
-                        <userExtensions>${project.build.directory}/selenium/user-extensions.js</userExtensions>
+                        <userExtensions>${project.build.directory}/play/home/modules/testrunner/public/test-runner/selenium/scripts/user-extensions.js</userExtensions>
                     </configuration>
                 </plugin>
             </plugins>
