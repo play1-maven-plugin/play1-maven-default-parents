@@ -193,7 +193,7 @@ under the License.
                             <selenium.test.trace>${selenium.test.trace}</selenium.test.trace>
                         </systemPropertyVariables>
                     </configuration>
-                 </plugin>
+                </plugin>
 
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
