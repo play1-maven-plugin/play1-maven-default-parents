@@ -71,7 +71,7 @@ under the License.
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <play.plugin.version>1.0.0-beta2-SNAPSHOT</play.plugin.version>
+        <play.plugin.version>1.0.0-beta2</play.plugin.version>
         <play.testId>test</play.testId>
         <play.version>1.2.4</play.version>
     </properties>
