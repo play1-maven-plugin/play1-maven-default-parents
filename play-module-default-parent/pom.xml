@@ -24,7 +24,7 @@ under the License.
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.google.code.maven-play-plugin</groupId>
     <artifactId>play-module-default-parent</artifactId>
-    <version>1.0.0-beta2</version>
+    <version>1.0.0-beta3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Play! Module Default Configuration Parent</name>
