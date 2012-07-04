@@ -73,7 +73,7 @@ under the License.
 
         <play.plugin.version>1.0.0-beta3-SNAPSHOT</play.plugin.version>
         <play.testId>test</play.testId>
-        <play.version>1.2.4</play.version>
+        <play.version>1.2.5</play.version>
     </properties>
 
     <dependencies>
