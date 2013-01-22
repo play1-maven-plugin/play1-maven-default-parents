@@ -31,6 +31,7 @@ limitations under the License.
     <packaging>pom</packaging>
 
     <name>Play! Application and Module Default Parents</name>
+    <description>Play! Application and Module Default Parents</description>
 
     <scm>
         <connection>scm:svn:http://maven-play-plugin.googlecode.com/svn/trunk/play-default-parents/</connection>
