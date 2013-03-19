@@ -18,21 +18,17 @@ limitations under the License.
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <parent>
-        <groupId>com.google.code.maven-play-plugin</groupId>
-        <artifactId>play-default-parents</artifactId>
-        <version>1.0.0-beta5-SNAPSHOT</version>
-    </parent>
-
     <modelVersion>4.0.0</modelVersion>
+    <groupId>com.google.code.maven-play-plugin</groupId>
     <artifactId>play-app-default-parent</artifactId>
+    <version>1.0.0-beta5-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Play! Application Default Configuration Parent</name>
     <description>Play! Application Default Configuration Parent</description>
 
     <properties>
-        <play.plugin.version>1.0.0-beta4</play.plugin.version>
+        <play.plugin.version>1.0.0-beta5-SNAPSHOT</play.plugin.version>
         <play.testId>test</play.testId>
         <play.version>1.2.5</play.version>
     </properties>
@@ -105,7 +101,7 @@ limitations under the License.
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>2.5</version>
+                    <version>2.5.1</version>
                     <configuration>
                         <source>1.5</source>
                         <target>1.5</target>
@@ -121,7 +117,7 @@ limitations under the License.
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>2.11</version>
+                    <version>2.14</version>
                     <configuration>
                         <excludes>
                             <exclude>**/*SeleniumTest.java</exclude>
@@ -149,7 +145,7 @@ limitations under the License.
                     <version>2.7.2</version>
                     <configuration>
                         <skip>${play.seleniumSkip}</skip>
-                        <forkMode>never</forkMode> <!-- experimental -->
+                        <forkMode>never</forkMode> <!-- no need to fork, two servers already forked: Play! and Selenium -->
                         <includes>
                             <include>**/*SeleniumTest.java</include>
                         </includes>
