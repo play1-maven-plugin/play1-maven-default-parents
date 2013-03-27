@@ -31,6 +31,7 @@ limitations under the License.
         <play.plugin.version>1.0.0-beta5-SNAPSHOT</play.plugin.version>
         <play.testId>test</play.testId>
         <play.version>1.2.5</play.version>
+        <selenium.server.version>2.31.0</selenium.server.version>
     </properties>
 
     <dependencies>
@@ -171,6 +172,25 @@ limitations under the License.
                         <skip>${play.seleniumSkip}</skip>
                         <userExtensions>${project.build.directory}/play/home/modules/testrunner/public/test-runner/selenium/scripts/user-extensions.js</userExtensions>
                     </configuration>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.seleniumhq.selenium</groupId>
+                            <artifactId>selenium-server</artifactId>
+                            <version>${selenium.server.version}</version>
+                        </dependency>
+
+                        <dependency>
+                            <groupId>org.seleniumhq.selenium</groupId>
+                            <artifactId>selenium-remote-driver</artifactId>
+                            <version>${selenium.server.version}</version>
+                        </dependency>
+
+                        <dependency>
+                            <groupId>org.seleniumhq.selenium</groupId>
+                            <artifactId>selenium-api</artifactId>
+                            <version>${selenium.server.version}</version>
+                        </dependency>
+                    </dependencies>
                 </plugin>
             </plugins>
         </pluginManagement>
