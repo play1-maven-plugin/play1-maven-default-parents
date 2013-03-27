@@ -27,16 +27,16 @@ limitations under the License.
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.google.code.maven-play-plugin</groupId>
     <artifactId>play-default-parents</artifactId>
-    <version>1.0.0-beta5-SNAPSHOT</version>
+    <version>1.0.0-beta5</version>
     <packaging>pom</packaging>
 
     <name>Play! Application and Module Default Parents</name>
     <description>Play! Application and Module Default Parents</description>
 
     <scm>
-        <connection>scm:svn:http://maven-play-plugin.googlecode.com/svn/trunk/play-default-parents/</connection>
-        <developerConnection>scm:svn:https://maven-play-plugin.googlecode.com/svn/trunk/play-default-parents/</developerConnection>
-        <url>http://maven-play-plugin.googlecode.com/svn/trunk/play-default-parents/</url>
+        <connection>scm:svn:http://maven-play-plugin.googlecode.com/svn/tags/play-default-parents-1.0.0-beta5</connection>
+        <developerConnection>scm:svn:https://maven-play-plugin.googlecode.com/svn/tags/play-default-parents-1.0.0-beta5</developerConnection>
+        <url>http://maven-play-plugin.googlecode.com/svn/tags/play-default-parents-1.0.0-beta5</url>
     </scm>
 
     <modules>
