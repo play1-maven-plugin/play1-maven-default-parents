@@ -28,7 +28,7 @@ limitations under the License.
     <description>Play! Application Default Configuration Parent</description>
 
     <properties>
-        <play.plugin.version>1.0.0-beta5-SNAPSHOT</play.plugin.version>
+        <play.plugin.version>1.0.0-beta5</play.plugin.version>
         <play.testId>test</play.testId>
         <play.version>1.2.5</play.version>
         <selenium.server.version>2.31.0</selenium.server.version>
