@@ -34,9 +34,9 @@ limitations under the License.
     <description>Play! Application and Module Default Parents</description>
 
     <scm>
-        <connection>scm:svn:http://maven-play-plugin.googlecode.com/svn/tags/play-default-parents-1.0.0-beta5</connection>
-        <developerConnection>scm:svn:https://maven-play-plugin.googlecode.com/svn/tags/play-default-parents-1.0.0-beta5</developerConnection>
-        <url>http://maven-play-plugin.googlecode.com/svn/tags/play-default-parents-1.0.0-beta5</url>
+        <connection>scm:svn:http://maven-play-plugin.googlecode.com/svn/trunk/play-default-parents/</connection>
+        <developerConnection>scm:svn:https://maven-play-plugin.googlecode.com/svn/trunk/play-default-parents/</developerConnection>
+        <url>http://maven-play-plugin.googlecode.com/svn/trunk/play-default-parents/</url>
     </scm>
 
     <modules>
