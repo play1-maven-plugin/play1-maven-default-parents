@@ -26,6 +26,25 @@ limitations under the License.
 
     <name>Play! Application Default Configuration Parent</name>
     <description>Play! Application Default Configuration Parent</description>
+    <url>fill_in_your_project</url>
+
+    <scm>
+        <url>fill_in_your_project</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>fill_in_your_project</id>
+            <name>Fill in your project</name>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>fill_in_your_project</name>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <properties>
         <play.plugin.version>1.0.0-beta5</play.plugin.version>
