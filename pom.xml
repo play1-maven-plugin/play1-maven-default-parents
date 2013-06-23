@@ -41,6 +41,7 @@ limitations under the License.
 
     <modules>
         <module>play-app-default-parent</module>
+        <module>play13-app-default-parent</module>
         <module>play-module-default-parent</module>
     </modules>
 
