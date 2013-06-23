@@ -47,10 +47,10 @@ limitations under the License.
     </licenses>
 
     <properties>
-        <play.plugin.version>1.0.0-beta5</play.plugin.version>
+        <play.plugin.version>1.0.0-beta6-SNAPSHOT</play.plugin.version>
         <play.testId>test</play.testId>
         <play.version>1.2.5</play.version>
-        <selenium.server.version>2.31.0</selenium.server.version>
+        <selenium.server.version>2.33.0</selenium.server.version>
     </properties>
 
     <dependencies>
@@ -121,7 +121,7 @@ limitations under the License.
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>2.5.1</version>
+                    <version>3.1</version>
                     <configuration>
                         <source>1.5</source>
                         <target>1.5</target>
@@ -214,4 +214,5 @@ limitations under the License.
             </plugins>
         </pluginManagement>
     </build>
+
 </project>
