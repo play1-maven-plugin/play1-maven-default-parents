@@ -139,6 +139,7 @@ limitations under the License.
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>2.15</version>
                     <configuration>
+                        <debugForkedProcess>-XX:-UseSplitVerifier</debugForkedProcess>
                         <excludes>
                             <exclude>**/*SeleniumTest.java</exclude>
                         </excludes>
