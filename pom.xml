@@ -41,7 +41,7 @@ limitations under the License.
 
     <modules>
         <module>play-app-default-parent</module>
-        <module>play13-app-default-parent</module>
+        <!-- <module>play13-app-default-parent</module> not ready for release, contains snapshot dependency -->
         <module>play-module-default-parent</module>
     </modules>
 
