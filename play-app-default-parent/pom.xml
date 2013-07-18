@@ -53,7 +53,7 @@ limitations under the License.
     </licenses>
 
     <properties>
-        <play.plugin.version>1.0.0-beta6</play.plugin.version>
+        <play.plugin.version>1.0.0-beta7-SNAPSHOT</play.plugin.version>
         <play.testId>test</play.testId>
         <play.version>1.2.5</play.version>
         <play.startTimeout>0</play.startTimeout>
