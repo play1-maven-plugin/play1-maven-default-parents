@@ -55,7 +55,7 @@ limitations under the License.
     <properties>
         <play.plugin.version>1.0.0-beta7-SNAPSHOT</play.plugin.version>
         <play.testId>test</play.testId>
-        <play.version>1.2.6</play.version>
+        <play.version>1.2.7</play.version>
         <play.startTimeout>0</play.startTimeout>
         <play.stopTimeout>0</play.stopTimeout>
         <selenium.server.version>2.33.0</selenium.server.version>
