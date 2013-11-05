@@ -58,7 +58,7 @@ limitations under the License.
         <play.version>1.2.7</play.version>
         <play.startTimeout>0</play.startTimeout>
         <play.stopTimeout>0</play.stopTimeout>
-        <selenium.server.version>2.33.0</selenium.server.version>
+        <selenium.server.version>2.37.1</selenium.server.version>
     </properties>
 
     <dependencies>
@@ -145,7 +145,7 @@ limitations under the License.
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>2.15</version>
+                    <version>2.16</version>
                     <configuration>
                         <debugForkedProcess>-XX:-UseSplitVerifier</debugForkedProcess> <!-- for Java7 compatibility -->
                         <excludes>
