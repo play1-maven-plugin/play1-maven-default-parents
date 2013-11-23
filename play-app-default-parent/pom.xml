@@ -112,6 +112,14 @@ limitations under the License.
     </dependencies>
 
     <build>
+        <sourceDirectory>${basedir}/app</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>${basedir}/conf</directory>
+            </resource>
+        </resources>
+        <testSourceDirectory>${basedir}/test</testSourceDirectory>
+
         <pluginManagement>
             <plugins>
                 <plugin>
