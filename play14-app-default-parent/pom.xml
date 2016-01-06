@@ -22,7 +22,6 @@ limitations under the License.
         <groupId>com.google.code.maven-play-plugin</groupId>
         <artifactId>play-app-default-parent</artifactId>
         <version>1.0.0-beta8-SNAPSHOT</version>
-        <relativePath>../play13-app-default-parent/pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
