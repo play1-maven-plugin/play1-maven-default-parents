@@ -58,7 +58,7 @@ limitations under the License.
         <play.version>1.2.7.2</play.version>
         <play.startTimeout>0</play.startTimeout>
         <play.stopTimeout>0</play.stopTimeout>
-        <selenium.server.version>2.45.0</selenium.server.version>
+        <selenium.server.version>2.48.2</selenium.server.version>
     </properties>
 
     <dependencies>
@@ -234,6 +234,13 @@ limitations under the License.
                             <groupId>org.seleniumhq.selenium</groupId>
                             <artifactId>selenium-api</artifactId>
                             <version>${selenium.server.version}</version>
+                        </dependency>
+
+                        <!-- force 1.3 version required by selenium (selenium-maven-plugin depends on version 1.1) -->
+                        <dependency>
+                            <groupId>org.apache.commons</groupId>
+                            <artifactId>commons-exec</artifactId>
+                            <version>1.3</version>
                         </dependency>
                     </dependencies>
                 </plugin>
