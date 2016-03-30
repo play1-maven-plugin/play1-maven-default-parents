@@ -27,7 +27,7 @@ limitations under the License.
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.google.code.maven-play-plugin</groupId>
     <artifactId>play-module-default-parent</artifactId>
-    <version>1.0.0-beta8</version>
+    <version>1.0.0-beta9-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Play! Module Default Configuration Parent</name>
@@ -36,7 +36,7 @@ limitations under the License.
 
     <scm>
         <url>fill_in_your_project</url>
-      <tag>play-default-parents-1.0.0-beta8</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <developers>
