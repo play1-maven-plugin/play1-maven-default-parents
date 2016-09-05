@@ -54,7 +54,7 @@ limitations under the License.
     </licenses>
 
     <properties>
-        <play.version>1.4.2</play.version>
+        <play.version>1.4.3</play.version>
     </properties>
 
 </project>
